@@ -18,9 +18,9 @@ const login = () => {
         </div>
       </div>
       <div className="flex space-x-1 absolute bottom-0 w-full text-white mb-3 sm:mb-6 justify-center">
-        <Link href="/"><a>About us</a></Link><div className="text-green-600">|</div>
-        <Link href="/"><a>Support us</a></Link><div className="text-green-600">|</div>
-        <Link href="/"><a>Report a problem</a></Link>
+        <div className="hover:text-green-600"><Link href="/" className="hover:text-green-600"><a>About us</a></Link></div><div className="text-green-600">|</div>
+        <div className="hover:text-green-600"><Link href="/" className="hover:text-green-600"><a>Support us</a></Link></div><div className="text-green-600">|</div>
+        <div className="hover:text-green-600"><Link href="/" className="hover:text-green-600"><a>Report a problem</a></Link></div>
       </div>
     </div>
   )
